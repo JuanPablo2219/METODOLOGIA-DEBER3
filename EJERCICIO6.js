@@ -1,33 +1,9 @@
-/*let vector = [1, 2, 3, 2, 1,];
+let nombre = ['a', 'o', 'l', 'h'];
+let temp = nombre[0];     // aqui guardo  el primer elemento
 
-if (vector.length % 2 == 0) {
+if (nombre[0] = nombre[nombre.length - 1]); { // asignamos el ultimo elemento al primer 
 
-    console.log("El tamaño del vector es par");
-} else {
-    console.log("El tamaño del vector es impar" );
-}*/
-
-
-
-/*//  0 1 2 3 4 
-let nums = [5, 8, 3, 6, 7, 9, 8];
-//t=5
-
-
-for (let i = 0; i < nums.length; i++) {
-
-    if (i == 0 || nums.length - 1 == i) {
-
-        console.log(nums[i])
-    }
-}*/
-
-
-let vector = [1, 2, 3, 4, 5, 6];
-let m = vector[0];
-for (let i = 1; i < vector.length; i++) {
-    if (vector[i] > m) {
-        m = vector[i];
-    }
+    nombre[nombre.length - 1] = temp; // asignamos el primer elemento al ultimo
 }
-console.log(m); 
+
+console.log(nombre); //el resultado [h, o, l, a]
